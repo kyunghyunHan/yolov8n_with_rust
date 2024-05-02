@@ -7,3 +7,6 @@ edition = "2021"
 
 [dependencies]
 opencv = "0.91.2"
+
+[profile.dev]
+opt-level = 3   
